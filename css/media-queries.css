@@ -67,10 +67,22 @@
     footer {
         display: flex;
         margin: 1em;
-        height: 5dvh;
+        height: 7dvh;
         align-items: flex-end;
+        justify-content: space-between;
+
+    }
+    #social-media-links div {
+        height: 50px;
+        width: 50px;
+        background: #ccc;
+        margin-left: 1em;
     }
 
+    #social-media-links {
+        display: flex;
+
+    }
 
 
 }
